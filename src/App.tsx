@@ -1,19 +1,11 @@
-import User from "./components/User";
-import Articles from "./components/Articles";
+// import Example1 from "./components/Example1";
+import Example2 from "./components/Example2";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header>
-        <h1>React Skeletons</h1>
-      </header>
-
-      <div className="content">
-        <Articles />
-        <User />
-      </div>
-    </div>
+    <>
+      {/* <Example1 /> */}
+      <Example2 />
+    </>
   );
 }
-
-export default App;
