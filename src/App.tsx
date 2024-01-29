@@ -1,9 +1,9 @@
-import ProductList from "./components/ProductList";
+import ImageGallery from "./components/ImageGallery";
 
 export default function App() {
   return (
     <>
-      <ProductList />
+      <ImageGallery />
     </>
   );
 }
